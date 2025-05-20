@@ -23,7 +23,7 @@ export default function UploadCourses() {
     const file = event.target.files?.[0];
     if (!file) return;
 
-    const validTypes = ["image/jpeg", "image/png"]; // Acepta JPG y PNG
+    const validTypes = ["image/jpeg", "image/png"]; // Ya acepta JPG y PNG
     if (!validTypes.includes(file.type)) {
       alert("Solo se permiten archivos JPG o PNG.");
       event.target.value = "";

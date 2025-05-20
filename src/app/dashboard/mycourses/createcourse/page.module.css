@@ -75,7 +75,6 @@
   flex-direction: column;
 }
 
-/* Imagen de portada */
 .imagen_portada_section {
   width: 100%;
   height: 40%;
@@ -89,7 +88,7 @@
 .imagen_portada_section img {
   width: 30vh;
   height: 20vh;
-  object-fit: cover; /* O puedes usar 'contain' según lo que busques */
+  object-fit: cover;
 }
 
 .uploadGroup {
